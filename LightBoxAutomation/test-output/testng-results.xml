@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="12" total="93" passed="81">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3765360" started-at="2016-07-14T10:13:17Z" finished-at="2016-07-14T11:16:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3765360" started-at="2016-07-14T10:13:17Z" finished-at="2016-07-14T11:16:03Z">
+      <class name="RegressionSuite.TC32ToTC36">
+        <test-method status="PASS" signature="beforeTest()[pri:54, instance:RegressionSuite.TC32ToTC36@566776ad]" name="beforeTest" duration-ms="83963" started-at="2016-07-14T16:18:04Z" description="TC: Load lightbox URL " finished-at="2016-07-14T16:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyFilters()[pri:55, instance:RegressionSuite.TC32ToTC36@566776ad]" name="verifyFilters" duration-ms="34119" started-at="2016-07-14T16:19:28Z" description="TC 32: Verify SOIL DATA Tab" finished-at="2016-07-14T16:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilters -->
+        <test-method status="FAIL" signature="verifyHighLightFlagFilter()[pri:56, instance:RegressionSuite.TC32ToTC36@566776ad]" name="verifyHighLightFlagFilter" duration-ms="109121" started-at="2016-07-14T16:20:02Z" description="TC 33: Verify Highlight Filter on SOIL DATA" finished-at="2016-07-14T16:21:51Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir8232_32164}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f8981f314e27fedda1a72f18cd3e957a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir8232_32164}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f8981f314e27fedda1a72f18cd3e957a
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at RegressionSuite.TC32ToTC36.verifyHighLightFlagFilter(TC32ToTC36.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighLightFlagFilter -->
+        <test-method status="PASS" signature="verifySlideOut()[pri:57, instance:RegressionSuite.TC32ToTC36@566776ad]" name="verifySlideOut" duration-ms="30875" started-at="2016-07-14T16:21:51Z" description="TC 34: Verify Slideout Panel for SOIL DATA" finished-at="2016-07-14T16:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySlideOut -->
+        <test-method status="PASS" signature="verifyPopoutLink()[pri:58, instance:RegressionSuite.TC32ToTC36@566776ad]" name="verifyPopoutLink" duration-ms="27949" started-at="2016-07-14T16:22:22Z" description="TC 35: Verify Popout link for SOIL DATA" finished-at="2016-07-14T16:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPopoutLink -->
+        <test-method status="PASS" signature="verifySoilInformation()[pri:59, instance:RegressionSuite.TC32ToTC36@566776ad]" name="verifySoilInformation" duration-ms="14725" started-at="2016-07-14T16:22:50Z" description="TC 36: Verify Soil Information link on Slideout" finished-at="2016-07-14T16:23:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySoilInformation -->
+        <test-method status="PASS" signature="CloseWindow()[pri:60, instance:RegressionSuite.TC32ToTC36@566776ad]" name="CloseWindow" duration-ms="1122" started-at="2016-07-14T16:23:05Z" description="TC : Close lbx url" finished-at="2016-07-14T16:23:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC32ToTC36 -->
+      <class name="RegressionSuite.TC37ToTC40">
+        <test-method status="PASS" signature="beforeTest()[pri:61, instance:RegressionSuite.TC37ToTC40@6108b2d7]" name="beforeTest" duration-ms="50540" started-at="2016-07-14T16:23:06Z" description="TC: Load lightbox URL " finished-at="2016-07-14T16:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyOTHERDataTab()[pri:62, instance:RegressionSuite.TC37ToTC40@6108b2d7]" name="verifyOTHERDataTab" duration-ms="29151" started-at="2016-07-14T16:23:57Z" description="TC 37: Verify OTHER Tab" finished-at="2016-07-14T16:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOTHERDataTab -->
+        <test-method status="PASS" signature="verifyHighLightFlagFilter()[pri:63, instance:RegressionSuite.TC37ToTC40@6108b2d7]" name="verifyHighLightFlagFilter" duration-ms="96910" started-at="2016-07-14T16:24:26Z" description="TC 38: Verify Hightlight Filter on OTHER " finished-at="2016-07-14T16:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighLightFlagFilter -->
+        <test-method status="PASS" signature="verifySlideOut()[pri:64, instance:RegressionSuite.TC37ToTC40@6108b2d7]" name="verifySlideOut" duration-ms="56373" started-at="2016-07-14T16:26:03Z" description="TC 39: Verify Slideout panel for OTHER " finished-at="2016-07-14T16:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySlideOut -->
+        <test-method status="PASS" signature="verifyDistDirLink()[pri:65, instance:RegressionSuite.TC37ToTC40@6108b2d7]" name="verifyDistDirLink" duration-ms="23843" started-at="2016-07-14T16:26:59Z" description="TC 40: Verify DIST/DIR link on Slideout " finished-at="2016-07-14T16:27:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDistDirLink -->
+        <test-method status="PASS" signature="CloseWindow()[pri:66, instance:RegressionSuite.TC37ToTC40@6108b2d7]" name="CloseWindow" duration-ms="1132" started-at="2016-07-14T16:27:23Z" description="TC : Close lbx url" finished-at="2016-07-14T16:27:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC37ToTC40 -->
+      <class name="RegressionSuite.TC14To17">
+        <test-method status="PASS" signature="beforeTest()[pri:28, instance:RegressionSuite.TC14To17@35f983a6]" name="beforeTest" duration-ms="51218" started-at="2016-07-14T16:01:50Z" description="TC: Load lightbox URL " finished-at="2016-07-14T16:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="verifySlideOut()[pri:29, instance:RegressionSuite.TC14To17@35f983a6]" name="verifySlideOut" duration-ms="60896" started-at="2016-07-14T16:02:41Z" description="TC 14: Verify Slideout Panel for MAP FINDINGS" finished-at="2016-07-14T16:03:42Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15068_29142}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: da2a195094fa3c409355d02b44265370]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15068_29142}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: da2a195094fa3c409355d02b44265370
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at RegressionSuite.TC14To17.verifySlideOut(TC14To17.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySlideOut -->
+        <test-method status="FAIL" signature="verifyDBLinks()[pri:30, instance:RegressionSuite.TC14To17@35f983a6]" name="verifyDBLinks" duration-ms="7188" started-at="2016-07-14T16:03:42Z" description="TC15: Verify DB link on Slideout panel." finished-at="2016-07-14T16:03:49Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15068_29142}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: da2a195094fa3c409355d02b44265370]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15068_29142}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: da2a195094fa3c409355d02b44265370
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at RegressionSuite.TC14To17.verifyDBLinks(TC14To17.java:165)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDBLinks -->
+        <test-method status="FAIL" signature="verifyFilters()[pri:31, instance:RegressionSuite.TC14To17@35f983a6]" name="verifyFilters" duration-ms="7290" started-at="2016-07-14T16:03:49Z" description="TC 16: Verify DIST/DIR Link on Slideout panel" finished-at="2016-07-14T16:03:57Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15068_29142}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: da2a195094fa3c409355d02b44265370]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15068_29142}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: da2a195094fa3c409355d02b44265370
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at RegressionSuite.TC14To17.verifyFilters(TC14To17.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilters -->
+        <test-method status="FAIL" signature="verifyPopoutLink()[pri:32, instance:RegressionSuite.TC14To17@35f983a6]" name="verifyPopoutLink" duration-ms="7300" started-at="2016-07-14T16:03:57Z" description="TC 17: Verify Popout page for Map Findings" finished-at="2016-07-14T16:04:04Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 64 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15068_29142}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: da2a195094fa3c409355d02b44265370]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 64 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15068_29142}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: da2a195094fa3c409355d02b44265370
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at RegressionSuite.TC14To17.verifyPopoutLink(TC14To17.java:336)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPopoutLink -->
+        <test-method status="PASS" signature="CloseWindow()[pri:33, instance:RegressionSuite.TC14To17@35f983a6]" name="CloseWindow" duration-ms="1172" started-at="2016-07-14T16:04:04Z" description="TC :Close lbx url" finished-at="2016-07-14T16:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC14To17 -->
+      <class name="RegressionSuite.TC27ToTC31">
+        <test-method status="PASS" signature="beforeTest()[pri:47, instance:RegressionSuite.TC27ToTC31@2f7a2457]" name="beforeTest" duration-ms="77254" started-at="2016-07-14T16:13:59Z" description="TC: Load lightbox URL " finished-at="2016-07-14T16:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyTitle()[pri:48, instance:RegressionSuite.TC27ToTC31@2f7a2457]" name="verifyTitle" duration-ms="34331" started-at="2016-07-14T16:15:16Z" description="TC 27: Verify OIL &amp; GAS WELLS Tab" finished-at="2016-07-14T16:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyHighLightFlagFilter()[pri:49, instance:RegressionSuite.TC27ToTC31@2f7a2457]" name="verifyHighLightFlagFilter" duration-ms="100925" started-at="2016-07-14T16:15:50Z" description="TC 28: Verify Highlight filter on OIL &amp; GAS WELLS" finished-at="2016-07-14T16:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighLightFlagFilter -->
+        <test-method status="FAIL" signature="verifySlideOut()[pri:51, instance:RegressionSuite.TC27ToTC31@2f7a2457]" name="verifySlideOut" duration-ms="25403" started-at="2016-07-14T16:17:31Z" description="TC 30: Verify Slideout panel for OIL &amp; GAS WELLS" finished-at="2016-07-14T16:17:57Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir18864_14347}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2cc441d155d9edc2d18e84f409f498a9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir18864_14347}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2cc441d155d9edc2d18e84f409f498a9
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at RegressionSuite.TC27ToTC31.verifySlideOut(TC27ToTC31.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySlideOut -->
+        <test-method status="FAIL" signature="verifyPopoutLink()[pri:52, instance:RegressionSuite.TC27ToTC31@2f7a2457]" name="verifyPopoutLink" duration-ms="7260" started-at="2016-07-14T16:17:57Z" description="TC 31: Verify POPOUT link" finished-at="2016-07-14T16:18:04Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir18864_14347}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2cc441d155d9edc2d18e84f409f498a9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir18864_14347}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2cc441d155d9edc2d18e84f409f498a9
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at RegressionSuite.TC27ToTC31.verifyPopoutLink(TC27ToTC31.java:396)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPopoutLink -->
+        <test-method status="PASS" signature="CloseWindow()[pri:53, instance:RegressionSuite.TC27ToTC31@2f7a2457]" name="CloseWindow" duration-ms="225" started-at="2016-07-14T16:18:04Z" description="TC :Close lbx url" finished-at="2016-07-14T16:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC27ToTC31 -->
+      <class name="RegressionSuite.TC23ToTC26">
+        <test-method status="PASS" signature="beforeTest()[pri:41, instance:RegressionSuite.TC23ToTC26@edf4efb]" name="beforeTest" duration-ms="70215" started-at="2016-07-14T16:09:09Z" description="TC: Load lightbox URL " finished-at="2016-07-14T16:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyTitle()[pri:42, instance:RegressionSuite.TC23ToTC26@edf4efb]" name="verifyTitle" duration-ms="33965" started-at="2016-07-14T16:10:20Z" description="TC 23: Verify WATER WELLS Tab" finished-at="2016-07-14T16:10:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyHighLightFlagFilter()[pri:43, instance:RegressionSuite.TC23ToTC26@edf4efb]" name="verifyHighLightFlagFilter" duration-ms="111881" started-at="2016-07-14T16:10:54Z" description="TC 24: Verify Highlight Filter on WATER WELLS" finished-at="2016-07-14T16:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighLightFlagFilter -->
+        <test-method status="PASS" signature="verifySlideOut()[pri:44, instance:RegressionSuite.TC23ToTC26@edf4efb]" name="verifySlideOut" duration-ms="44826" started-at="2016-07-14T16:12:45Z" description="TC 25: Verify Slideout Panel for WATER WELLS" finished-at="2016-07-14T16:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySlideOut -->
+        <test-method status="PASS" signature="verifyPopoutLink()[pri:45, instance:RegressionSuite.TC23ToTC26@edf4efb]" name="verifyPopoutLink" duration-ms="28064" started-at="2016-07-14T16:13:30Z" description="TC 26: Verify POPOUT link" finished-at="2016-07-14T16:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPopoutLink -->
+        <test-method status="PASS" signature="CloseWindow()[pri:46, instance:RegressionSuite.TC23ToTC26@edf4efb]" name="CloseWindow" duration-ms="426" started-at="2016-07-14T16:13:58Z" description="TC :Close lbx url" finished-at="2016-07-14T16:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC23ToTC26 -->
+      <class name="RegressionSuite.TC18ToTC22">
+        <test-method status="PASS" signature="beforeTest()[pri:34, instance:RegressionSuite.TC18ToTC22@7f690630]" name="beforeTest" duration-ms="57128" started-at="2016-07-14T16:04:05Z" description="TC: Load lightbox URL " finished-at="2016-07-14T16:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyTitle()[pri:35, instance:RegressionSuite.TC18ToTC22@7f690630]" name="verifyTitle" duration-ms="37078" started-at="2016-07-14T16:05:02Z" description="TC 18: Verify ORPHAN Tab" finished-at="2016-07-14T16:05:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyORPHANRecordCount()[pri:36, instance:RegressionSuite.TC18ToTC22@7f690630]" name="verifyORPHANRecordCount" duration-ms="20472" started-at="2016-07-14T16:05:39Z" description="TC 19: Verify Record count for ORPHANS" finished-at="2016-07-14T16:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyORPHANRecordCount -->
+        <test-method status="PASS" signature="verifyColumnAdjustmentFeature()[pri:37, instance:RegressionSuite.TC18ToTC22@7f690630]" name="verifyColumnAdjustmentFeature" duration-ms="77846" started-at="2016-07-14T16:06:00Z" description="TC 20: Verify Add/Remove Column Feature" finished-at="2016-07-14T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyColumnAdjustmentFeature -->
+        <test-method status="PASS" signature="verifyHighlightFilter()[pri:38, instance:RegressionSuite.TC18ToTC22@7f690630]" name="verifyHighlightFilter" duration-ms="111433" started-at="2016-07-14T16:07:18Z" description="TC 21: Verify Slideout Panel for ORPHANS" finished-at="2016-07-14T16:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighlightFilter -->
+        <test-method status="PASS" signature="verifySlideout()[pri:39, instance:RegressionSuite.TC18ToTC22@7f690630]" name="verifySlideout" duration-ms="2" started-at="2016-07-14T16:09:09Z" description="TC 22: Verify Slideout panel for ORPHANS" finished-at="2016-07-14T16:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySlideout -->
+        <test-method status="PASS" signature="CloseWindow()[pri:40, instance:RegressionSuite.TC18ToTC22@7f690630]" name="CloseWindow" duration-ms="320" started-at="2016-07-14T16:09:09Z" description="TC :Close lbx url" finished-at="2016-07-14T16:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC18ToTC22 -->
+      <class name="RegressionSuite.TC05">
+        <test-method status="PASS" signature="listViewExpandCollapse()[pri:8, instance:RegressionSuite.TC05@96532d6]" name="listViewExpandCollapse" duration-ms="48289" started-at="2016-07-14T15:45:39Z" description="TC 05: Verify HIDE/SHOW list view functionality" finished-at="2016-07-14T15:46:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listViewExpandCollapse -->
+      </class> <!-- RegressionSuite.TC05 -->
+      <class name="RegressionSuite.TC48">
+        <test-method status="PASS" signature="beforeTest()[pri:92, instance:RegressionSuite.TC48@13969fbe]" name="beforeTest" duration-ms="50932" started-at="2016-07-14T16:37:52Z" description="TC : Loading lbx url" finished-at="2016-07-14T16:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyMapMarkers()[pri:93, instance:RegressionSuite.TC48@13969fbe]" name="verifyMapMarkers" duration-ms="116131" started-at="2016-07-14T16:38:43Z" description="TC 48: Verify About Tab" finished-at="2016-07-14T16:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMapMarkers -->
+        <test-method status="PASS" signature="CloseWindow()[pri:94, instance:RegressionSuite.TC48@13969fbe]" name="CloseWindow" duration-ms="324" started-at="2016-07-14T16:40:39Z" description="TC : Close lbx url" finished-at="2016-07-14T16:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC48 -->
+      <class name="RegressionSuite.TC47">
+        <test-method status="PASS" signature="beforeTest()[pri:80, instance:RegressionSuite.TC47@22f71333]" name="beforeTest" duration-ms="61074" started-at="2016-07-14T16:33:27Z" description="TC: Load lightbox URL" finished-at="2016-07-14T16:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyMapMarkers()[pri:81, instance:RegressionSuite.TC47@22f71333]" name="verifyMapMarkers" duration-ms="9476" started-at="2016-07-14T16:34:28Z" description="TC 47: Verify LAYERS dropdown" finished-at="2016-07-14T16:34:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMapMarkers -->
+        <test-method status="PASS" signature="verifyMapMarkersList()[pri:82, instance:RegressionSuite.TC47@22f71333]" name="verifyMapMarkersList" duration-ms="71251" started-at="2016-07-14T16:34:37Z" description="TC 47: Verify LAYERS dropdown" finished-at="2016-07-14T16:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMapMarkersList -->
+        <test-method status="PASS" signature="verifyMapMarkerTPMarker()[pri:83, instance:RegressionSuite.TC47@22f71333]" name="verifyMapMarkerTPMarker" duration-ms="29303" started-at="2016-07-14T16:35:48Z" description="TC 47: Verify TP Map Marker" finished-at="2016-07-14T16:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMapMarkerTPMarker -->
+        <test-method status="PASS" signature="verifyMapMarkerMAPFINDINGSMarker()[pri:84, instance:RegressionSuite.TC47@22f71333]" name="verifyMapMarkerMAPFINDINGSMarker" duration-ms="31869" started-at="2016-07-14T16:36:18Z" description="TC 47: Verify MAP FINDINGS Map Marker" finished-at="2016-07-14T16:36:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMapMarkerMAPFINDINGSMarker -->
+        <test-method status="PASS" signature="verifyMapMarkerWATERWELLSMarker()[pri:85, instance:RegressionSuite.TC47@22f71333]" name="verifyMapMarkerWATERWELLSMarker" duration-ms="5852" started-at="2016-07-14T16:36:50Z" description="TC 47: Verify WATER WELLS Map Marker" finished-at="2016-07-14T16:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMapMarkerWATERWELLSMarker -->
+        <test-method status="PASS" signature="verifyMapMarkerOILGASMarker()[pri:86, instance:RegressionSuite.TC47@22f71333]" name="verifyMapMarkerOILGASMarker" duration-ms="5814" started-at="2016-07-14T16:36:55Z" description="TC 47: Verify OIL AND GAS WELLS Map Marker" finished-at="2016-07-14T16:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMapMarkerOILGASMarker -->
+        <test-method status="PASS" signature="verifyMapMarkerSOILMarker()[pri:87, instance:RegressionSuite.TC47@22f71333]" name="verifyMapMarkerSOILMarker" duration-ms="5553" started-at="2016-07-14T16:37:01Z" description="TC 47: Verify SOIL DATA Map Marker" finished-at="2016-07-14T16:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMapMarkerSOILMarker -->
+        <test-method status="PASS" signature="verifyMapMarkerAQUIFLOWMarker()[pri:88, instance:RegressionSuite.TC47@22f71333]" name="verifyMapMarkerAQUIFLOWMarker" duration-ms="5500" started-at="2016-07-14T16:37:07Z" description="TC 47: Verify AQUIFLOW Map Marker" finished-at="2016-07-14T16:37:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMapMarkerAQUIFLOWMarker -->
+        <test-method status="PASS" signature="verifyMapMarkerBULDPERMITMarker()[pri:89, instance:RegressionSuite.TC47@22f71333]" name="verifyMapMarkerBULDPERMITMarker" duration-ms="16004" started-at="2016-07-14T16:37:12Z" description="TC 47: Verify BUILDING PERMITS Map Marker" finished-at="2016-07-14T16:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMapMarkerBULDPERMITMarker -->
+        <test-method status="PASS" signature="verifyMapMarkerPOIMarker()[pri:90, instance:RegressionSuite.TC47@22f71333]" name="verifyMapMarkerPOIMarker" duration-ms="23618" started-at="2016-07-14T16:37:28Z" description="TC 47: Verify POI Map Marker" finished-at="2016-07-14T16:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMapMarkerPOIMarker -->
+        <test-method status="PASS" signature="CloseWindow()[pri:91, instance:RegressionSuite.TC47@22f71333]" name="CloseWindow" duration-ms="227" started-at="2016-07-14T16:37:52Z" description="TC : Close lbx url" finished-at="2016-07-14T16:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC47 -->
+      <class name="RegressionSuite.TC46">
+        <test-method status="PASS" signature="beforeTest()[pri:77, instance:RegressionSuite.TC46@6cd8737]" name="beforeTest" duration-ms="71249" started-at="2016-07-14T16:31:47Z" description="TC: Load lightbox URL" finished-at="2016-07-14T16:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyAddRemoveColumnFilter()[pri:78, instance:RegressionSuite.TC46@6cd8737]" name="verifyAddRemoveColumnFilter" duration-ms="27995" started-at="2016-07-14T16:32:58Z" description="TC 46: Verify Drawing Tool" finished-at="2016-07-14T16:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddRemoveColumnFilter -->
+        <test-method status="PASS" signature="CloseWindow()[pri:79, instance:RegressionSuite.TC46@6cd8737]" name="CloseWindow" duration-ms="210" started-at="2016-07-14T16:33:26Z" description="TC : Close lbx url" finished-at="2016-07-14T16:33:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC46 -->
+      <class name="RegressionSuite.TC13">
+        <test-method status="FAIL" signature="beforeTest()[pri:25, instance:RegressionSuite.TC13@60f82f98]" name="beforeTest" duration-ms="304782" started-at="2016-07-14T15:54:48Z" description="TC: Load lightbox URL " finished-at="2016-07-14T15:59:53Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 245.502
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 301.84 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir3552_28168}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e5e780fe1ee6353efcd6c827cdd87319]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 245.502
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 301.84 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir3552_28168}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e5e780fe1ee6353efcd6c827cdd87319
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:311)
+	at RegressionSuite.TC13.beforeTest(TC13.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyFilters()[pri:26, instance:RegressionSuite.TC13@60f82f98]" name="verifyFilters" duration-ms="115876" started-at="2016-07-14T15:59:53Z" description="TC 13: Verify Filter on Dist Column" finished-at="2016-07-14T16:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilters -->
+        <test-method status="PASS" signature="CloseWindow()[pri:27, instance:RegressionSuite.TC13@60f82f98]" name="CloseWindow" duration-ms="1135" started-at="2016-07-14T16:01:49Z" description="TC :Close lbx url" finished-at="2016-07-14T16:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC13 -->
+      <class name="RegressionSuite.TC49ToTC56">
+        <test-method status="PASS" signature="beforeTest()[pri:92, instance:RegressionSuite.TC49ToTC56@6aaa5eb0]" name="beforeTest" duration-ms="49117" started-at="2016-07-14T16:40:40Z" description="TC : Close lbx url" finished-at="2016-07-14T16:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyImagery1()[pri:93, instance:RegressionSuite.TC49ToTC56@6aaa5eb0]" name="verifyImagery1" duration-ms="99244" started-at="2016-07-14T16:41:29Z" description="TC 49: Verify BASEMAP Tab Function" finished-at="2016-07-14T16:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImagery1 -->
+        <test-method status="PASS" signature="verifyImagery2()[pri:94, instance:RegressionSuite.TC49ToTC56@6aaa5eb0]" name="verifyImagery2" duration-ms="44845" started-at="2016-07-14T16:43:08Z" description="TC 50: Verify TOPO Tab Function" finished-at="2016-07-14T16:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImagery2 -->
+        <test-method status="PASS" signature="verifyImagery3()[pri:95, instance:RegressionSuite.TC49ToTC56@6aaa5eb0]" name="verifyImagery3" duration-ms="24590" started-at="2016-07-14T16:43:53Z" description="TC 51: Verify TAX MAP Tab Function" finished-at="2016-07-14T16:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImagery3 -->
+        <test-method status="PASS" signature="verifyImagery4()[pri:96, instance:RegressionSuite.TC49ToTC56@6aaa5eb0]" name="verifyImagery4" duration-ms="104312" started-at="2016-07-14T16:44:17Z" description="TC 52: Verify HISTORICAL Tab Function" finished-at="2016-07-14T16:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImagery4 -->
+        <test-method status="PASS" signature="CloseWindow()[pri:97, instance:RegressionSuite.TC49ToTC56@6aaa5eb0]" name="CloseWindow" duration-ms="1125" started-at="2016-07-14T16:46:02Z" description="TC : Close lbx url" finished-at="2016-07-14T16:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC49ToTC56 -->
+      <class name="RegressionSuite.TC06ToTC09">
+        <test-method status="PASS" signature="verifySummaryTab()[pri:11, instance:RegressionSuite.TC06ToTC09@3796751b]" name="verifySummaryTab" duration-ms="6264" started-at="2016-07-14T15:46:28Z" description="TC 06: Verify SUMMARY TAB" finished-at="2016-07-14T15:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySummaryTab -->
+        <test-method status="PASS" signature="verifyFINDINGSTab()[pri:12, instance:RegressionSuite.TC06ToTC09@3796751b]" name="verifyFINDINGSTab" duration-ms="21098" started-at="2016-07-14T15:46:34Z" description="TC 07: Verify FINDINGS Tab" finished-at="2016-07-14T15:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFINDINGSTab -->
+        <test-method status="PASS" signature="verifyPHYSICALSETTINGSTab()[pri:13, instance:RegressionSuite.TC06ToTC09@3796751b]" name="verifyPHYSICALSETTINGSTab" duration-ms="35413" started-at="2016-07-14T15:46:55Z" description="TC 08: Verify PHYSICAL SETTINGS Tab" finished-at="2016-07-14T15:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPHYSICALSETTINGSTab -->
+        <test-method status="PASS" signature="verifyOTHERTab()[pri:14, instance:RegressionSuite.TC06ToTC09@3796751b]" name="verifyOTHERTab" duration-ms="14039" started-at="2016-07-14T15:47:30Z" description="TC 09: Verify OTHER Tab" finished-at="2016-07-14T15:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOTHERTab -->
+      </class> <!-- RegressionSuite.TC06ToTC09 -->
+      <class name="RegressionSuite.TC01ToTC04">
+        <test-method status="PASS" signature="beforeTest()[pri:1, instance:RegressionSuite.TC01ToTC04@2812cbfa]" name="beforeTest" duration-ms="47930" started-at="2016-07-14T15:43:18Z" description="TC: Load lightbox URL " finished-at="2016-07-14T15:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyHISTORICALTab()[pri:2, instance:RegressionSuite.TC01ToTC04@2812cbfa]" name="verifyHISTORICALTab" duration-ms="27493" started-at="2016-07-14T15:44:05Z" description="TC 01: Verify Historical Tab" finished-at="2016-07-14T15:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHISTORICALTab -->
+        <test-method status="PASS" signature="verifyTaxmapTab()[pri:3, instance:RegressionSuite.TC01ToTC04@2812cbfa]" name="verifyTaxmapTab" duration-ms="5494" started-at="2016-07-14T15:44:33Z" description="TC 02: Verify TAX MAP Tab" finished-at="2016-07-14T15:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTaxmapTab -->
+        <test-method status="PASS" signature="verifyTOPOTab()[pri:4, instance:RegressionSuite.TC01ToTC04@2812cbfa]" name="verifyTOPOTab" duration-ms="25853" started-at="2016-07-14T15:44:38Z" description="TC 03: Verify TOPO Tab" finished-at="2016-07-14T15:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTOPOTab -->
+        <test-method status="PASS" signature="verifyBASEMAP()[pri:5, instance:RegressionSuite.TC01ToTC04@2812cbfa]" name="verifyBASEMAP" duration-ms="35077" started-at="2016-07-14T15:45:04Z" description="TC 04: Verify BASE MAP Tab" finished-at="2016-07-14T15:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBASEMAP -->
+      </class> <!-- RegressionSuite.TC01ToTC04 -->
+      <class name="RegressionSuite.TC41ToTC44">
+        <test-method status="PASS" signature="beforeTest()[pri:67, instance:RegressionSuite.TC41ToTC44@1554909b]" name="beforeTest" duration-ms="79528" started-at="2016-07-14T16:27:24Z" description="TC: Load lightbox URL " finished-at="2016-07-14T16:28:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyTitle()[pri:68, instance:RegressionSuite.TC41ToTC44@1554909b]" name="verifyTitle" duration-ms="38081" started-at="2016-07-14T16:28:44Z" description="TC 41: Verify AQUIFLOW Tab " finished-at="2016-07-14T16:29:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="FAIL" signature="verifyAQUIFLOWRecordCount()[pri:69, instance:RegressionSuite.TC41ToTC44@1554909b]" name="verifyAQUIFLOWRecordCount" duration-ms="4" started-at="2016-07-14T16:29:22Z" description="TC 42: Verify Record Count for AQUIFLOW " finished-at="2016-07-14T16:29:22Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at RegressionSuite.TC41ToTC44.verifyAQUIFLOWRecordCount(TC41ToTC44.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAQUIFLOWRecordCount -->
+        <test-method status="FAIL" signature="verifyColumnAdjustmentFeature()[pri:70, instance:RegressionSuite.TC41ToTC44@1554909b]" name="verifyColumnAdjustmentFeature" duration-ms="6" started-at="2016-07-14T16:29:22Z" description="TC 43: Verify Add/Remove Column Feature " finished-at="2016-07-14T16:29:22Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:378)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:494)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:341)
+	at RegressionSuite.TC41ToTC44.verifyColumnAdjustmentFeature(TC41ToTC44.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyColumnAdjustmentFeature -->
+        <test-method status="FAIL" signature="verifyHighLightFlagFilter()[pri:71, instance:RegressionSuite.TC41ToTC44@1554909b]" name="verifyHighLightFlagFilter" duration-ms="3" started-at="2016-07-14T16:29:22Z" description="TC 44: Verify Hightlight Filter on AQUIFLOW " finished-at="2016-07-14T16:29:22Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at RegressionSuite.TC41ToTC44.verifyHighLightFlagFilter(TC41ToTC44.java:296)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighLightFlagFilter -->
+        <test-method status="PASS" signature="verifySlideout()[pri:72, instance:RegressionSuite.TC41ToTC44@1554909b]" name="verifySlideout" duration-ms="2" started-at="2016-07-14T16:29:22Z" description="TC 45: Verify Slideout panel for AQUIFLOW " finished-at="2016-07-14T16:29:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySlideout -->
+        <test-method status="FAIL" signature="CloseWindow()[pri:73, instance:RegressionSuite.TC41ToTC44@1554909b]" name="CloseWindow" duration-ms="2" started-at="2016-07-14T16:29:22Z" description="TC : Close lbx url" finished-at="2016-07-14T16:29:22Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'H5', ip: '192.168.100.19', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:511)
+	at RegressionSuite.TC41ToTC44.CloseWindow(TC41ToTC44.java:449)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC41ToTC44 -->
+      <class name="RegressionSuite.TC45">
+        <test-method status="PASS" signature="beforeTest()[pri:74, instance:RegressionSuite.TC45@6bf256fa]" name="beforeTest" duration-ms="85045" started-at="2016-07-14T16:29:22Z" description="TC: Load lightbox URL " finished-at="2016-07-14T16:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyAddRemoveColumnFilter()[pri:75, instance:RegressionSuite.TC45@6bf256fa]" name="verifyAddRemoveColumnFilter" duration-ms="60074" started-at="2016-07-14T16:30:47Z" description="TC 45: Verify Filter Dependency between SUMMARY and MAP FINDINGS DB filter " finished-at="2016-07-14T16:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddRemoveColumnFilter -->
+        <test-method status="PASS" signature="CloseWindow()[pri:76, instance:RegressionSuite.TC45@6bf256fa]" name="CloseWindow" duration-ms="317" started-at="2016-07-14T16:31:47Z" description="TC: Close lbx url " finished-at="2016-07-14T16:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC45 -->
+      <class name="RegressionSuite.TC12">
+        <test-method status="PASS" signature="beforeTest()[pri:22, instance:RegressionSuite.TC12@6442b0a6]" name="beforeTest" duration-ms="45797" started-at="2016-07-14T15:52:32Z" description="TC: Load lightbox URL " finished-at="2016-07-14T15:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyAddRemoveColumnFilter()[pri:23, instance:RegressionSuite.TC12@6442b0a6]" name="verifyAddRemoveColumnFilter" duration-ms="89234" started-at="2016-07-14T15:53:18Z" description="TC 12: Verify Add/Remove List Columns" finished-at="2016-07-14T15:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddRemoveColumnFilter -->
+        <test-method status="PASS" signature="CloseWindow()[pri:24, instance:RegressionSuite.TC12@6442b0a6]" name="CloseWindow" duration-ms="1211" started-at="2016-07-14T15:54:47Z" description="TC: Close lbx url" finished-at="2016-07-14T15:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC12 -->
+      <class name="RegressionSuite.TC11">
+        <test-method status="PASS" signature="beforeTest()[pri:19, instance:RegressionSuite.TC11@4411d970]" name="beforeTest" duration-ms="125604" started-at="2016-07-14T15:48:46Z" description="TC: Load lightbox URL " finished-at="2016-07-14T15:50:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyHighLightFlagFilter()[pri:20, instance:RegressionSuite.TC11@4411d970]" name="verifyHighLightFlagFilter" duration-ms="100478" started-at="2016-07-14T15:50:51Z" description="TC 11: Verify Highlight flag filter for MAP  FINDINGS" finished-at="2016-07-14T15:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighLightFlagFilter -->
+        <test-method status="PASS" signature="CloseWindow()[pri:21, instance:RegressionSuite.TC11@4411d970]" name="CloseWindow" duration-ms="195" started-at="2016-07-14T15:52:32Z" description="TC: Close lbx url" finished-at="2016-07-14T15:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC11 -->
+      <class name="RegressionSuite.TC10">
+        <test-method status="PASS" signature="verifyListWidthFeature()[pri:17, instance:RegressionSuite.TC10@67b64c45]" name="verifyListWidthFeature" duration-ms="60792" started-at="2016-07-14T15:47:45Z" description="TC 10: Verify LIST WIDTH feature" finished-at="2016-07-14T15:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListWidthFeature -->
+        <test-method status="PASS" signature="CloseWindow()[pri:18, instance:RegressionSuite.TC10@67b64c45]" name="CloseWindow" duration-ms="241" started-at="2016-07-14T15:48:45Z" description="TC: Close lbx url" finished-at="2016-07-14T15:48:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWindow -->
+      </class> <!-- RegressionSuite.TC10 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

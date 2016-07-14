@@ -1,0 +1,2736 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 12 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Admin\workspace\LightBoxAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">93 methods, 12 failed,   81 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC41ToTC44" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC13" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC41ToTC44" hash-for-method="verifyAQUIFLOWRecordCount">verifyAQUIFLOWRecordCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC41ToTC44" hash-for-method="verifyColumnAdjustmentFeature">verifyColumnAdjustmentFeature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC14To17" hash-for-method="verifyDBLinks">verifyDBLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC14To17" hash-for-method="verifyFilters">verifyFilters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC32ToTC36" hash-for-method="verifyHighLightFlagFilter">verifyHighLightFlagFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC41ToTC44" hash-for-method="verifyHighLightFlagFilter">verifyHighLightFlagFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC27ToTC31" hash-for-method="verifyPopoutLink">verifyPopoutLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC14To17" hash-for-method="verifyPopoutLink">verifyPopoutLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC27ToTC31" hash-for-method="verifySlideOut">verifySlideOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC14To17" hash-for-method="verifySlideOut">verifySlideOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC49ToTC56" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC32ToTC36" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC46" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC27ToTC31" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC18ToTC22" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC45" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC13" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC47" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC14To17" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC23ToTC26" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC37ToTC40" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC48" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC10" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC12" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC11" hash-for-method="CloseWindow">CloseWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC23ToTC26" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC32ToTC36" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC27ToTC31" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC48" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC45" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC46" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC41ToTC44" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC11" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC01ToTC04" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC49ToTC56" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC37ToTC40" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC47" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC14To17" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC12" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC18ToTC22" hash-for-method="beforeTest">beforeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC05" hash-for-method="listViewExpandCollapse">listViewExpandCollapse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC45" hash-for-method="verifyAddRemoveColumnFilter">verifyAddRemoveColumnFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC12" hash-for-method="verifyAddRemoveColumnFilter">verifyAddRemoveColumnFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC46" hash-for-method="verifyAddRemoveColumnFilter">verifyAddRemoveColumnFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC01ToTC04" hash-for-method="verifyBASEMAP">verifyBASEMAP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC18ToTC22" hash-for-method="verifyColumnAdjustmentFeature">verifyColumnAdjustmentFeature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC37ToTC40" hash-for-method="verifyDistDirLink">verifyDistDirLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC06ToTC09" hash-for-method="verifyFINDINGSTab">verifyFINDINGSTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC32ToTC36" hash-for-method="verifyFilters">verifyFilters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC13" hash-for-method="verifyFilters">verifyFilters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC01ToTC04" hash-for-method="verifyHISTORICALTab">verifyHISTORICALTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC37ToTC40" hash-for-method="verifyHighLightFlagFilter">verifyHighLightFlagFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC11" hash-for-method="verifyHighLightFlagFilter">verifyHighLightFlagFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC27ToTC31" hash-for-method="verifyHighLightFlagFilter">verifyHighLightFlagFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC23ToTC26" hash-for-method="verifyHighLightFlagFilter">verifyHighLightFlagFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC18ToTC22" hash-for-method="verifyHighlightFilter">verifyHighlightFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC49ToTC56" hash-for-method="verifyImagery1">verifyImagery1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC49ToTC56" hash-for-method="verifyImagery2">verifyImagery2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC49ToTC56" hash-for-method="verifyImagery3">verifyImagery3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC49ToTC56" hash-for-method="verifyImagery4">verifyImagery4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC10" hash-for-method="verifyListWidthFeature">verifyListWidthFeature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC47" hash-for-method="verifyMapMarkerAQUIFLOWMarker">verifyMapMarkerAQUIFLOWMarker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC47" hash-for-method="verifyMapMarkerBULDPERMITMarker">verifyMapMarkerBULDPERMITMarker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC47" hash-for-method="verifyMapMarkerMAPFINDINGSMarker">verifyMapMarkerMAPFINDINGSMarker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC47" hash-for-method="verifyMapMarkerOILGASMarker">verifyMapMarkerOILGASMarker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC47" hash-for-method="verifyMapMarkerPOIMarker">verifyMapMarkerPOIMarker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC47" hash-for-method="verifyMapMarkerSOILMarker">verifyMapMarkerSOILMarker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC47" hash-for-method="verifyMapMarkerTPMarker">verifyMapMarkerTPMarker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC47" hash-for-method="verifyMapMarkerWATERWELLSMarker">verifyMapMarkerWATERWELLSMarker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC47" hash-for-method="verifyMapMarkers">verifyMapMarkers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC48" hash-for-method="verifyMapMarkers">verifyMapMarkers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC47" hash-for-method="verifyMapMarkersList">verifyMapMarkersList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC18ToTC22" hash-for-method="verifyORPHANRecordCount">verifyORPHANRecordCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC37ToTC40" hash-for-method="verifyOTHERDataTab">verifyOTHERDataTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC06ToTC09" hash-for-method="verifyOTHERTab">verifyOTHERTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC06ToTC09" hash-for-method="verifyPHYSICALSETTINGSTab">verifyPHYSICALSETTINGSTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC23ToTC26" hash-for-method="verifyPopoutLink">verifyPopoutLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC32ToTC36" hash-for-method="verifyPopoutLink">verifyPopoutLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC23ToTC26" hash-for-method="verifySlideOut">verifySlideOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC32ToTC36" hash-for-method="verifySlideOut">verifySlideOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC37ToTC40" hash-for-method="verifySlideOut">verifySlideOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC18ToTC22" hash-for-method="verifySlideout">verifySlideout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC41ToTC44" hash-for-method="verifySlideout">verifySlideout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC32ToTC36" hash-for-method="verifySoilInformation">verifySoilInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC06ToTC09" hash-for-method="verifySummaryTab">verifySummaryTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC01ToTC04" hash-for-method="verifyTOPOTab">verifyTOPOTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC01ToTC04" hash-for-method="verifyTaxmapTab">verifyTaxmapTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC23ToTC26" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC18ToTC22" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC27ToTC31" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RegressionSuite.TC41ToTC44" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RegressionSuite.TC41ToTC44</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;H5&apos;, ip: &apos;192.168.100.19&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:511)
+	at RegressionSuite.TC41ToTC44.CloseWindow(TC41ToTC44.java:449)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC : Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAQUIFLOWRecordCount">
+                  </a> <!-- verifyAQUIFLOWRecordCount -->
+                  <span class="method-name">verifyAQUIFLOWRecordCount</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;H5&apos;, ip: &apos;192.168.100.19&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at RegressionSuite.TC41ToTC44.verifyAQUIFLOWRecordCount(TC41ToTC44.java:132)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC 42: Verify Record Count for AQUIFLOW )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyColumnAdjustmentFeature">
+                  </a> <!-- verifyColumnAdjustmentFeature -->
+                  <span class="method-name">verifyColumnAdjustmentFeature</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;H5&apos;, ip: &apos;192.168.100.19&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:378)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:494)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:341)
+	at RegressionSuite.TC41ToTC44.verifyColumnAdjustmentFeature(TC41ToTC44.java:150)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC 43: Verify Add/Remove Column Feature )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHighLightFlagFilter">
+                  </a> <!-- verifyHighLightFlagFilter -->
+                  <span class="method-name">verifyHighLightFlagFilter</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;H5&apos;, ip: &apos;192.168.100.19&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at RegressionSuite.TC41ToTC44.verifyHighLightFlagFilter(TC41ToTC44.java:296)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC 44: Verify Hightlight Filter on AQUIFLOW )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RegressionSuite.TC13</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 245.502
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 301.84 seconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;H5&apos;, ip: &apos;192.168.100.19&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir3552_28168}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e5e780fe1ee6353efcd6c827cdd87319
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:311)
+	at RegressionSuite.TC13.beforeTest(TC13.java:24)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC: Load lightbox URL )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RegressionSuite.TC27ToTC31</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPopoutLink">
+                  </a> <!-- verifyPopoutLink -->
+                  <span class="method-name">verifyPopoutLink</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;H5&apos;, ip: &apos;192.168.100.19&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir18864_14347}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2cc441d155d9edc2d18e84f409f498a9
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at RegressionSuite.TC27ToTC31.verifyPopoutLink(TC27ToTC31.java:396)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC 31: Verify POPOUT link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySlideOut">
+                  </a> <!-- verifySlideOut -->
+                  <span class="method-name">verifySlideOut</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;H5&apos;, ip: &apos;192.168.100.19&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir18864_14347}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2cc441d155d9edc2d18e84f409f498a9
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at RegressionSuite.TC27ToTC31.verifySlideOut(TC27ToTC31.java:341)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC 30: Verify Slideout panel for OIL & GAS WELLS)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RegressionSuite.TC32ToTC36</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHighLightFlagFilter">
+                  </a> <!-- verifyHighLightFlagFilter -->
+                  <span class="method-name">verifyHighLightFlagFilter</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;H5&apos;, ip: &apos;192.168.100.19&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir8232_32164}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f8981f314e27fedda1a72f18cd3e957a
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at RegressionSuite.TC32ToTC36.verifyHighLightFlagFilter(TC32ToTC36.java:185)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC 33: Verify Highlight Filter on SOIL DATA)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RegressionSuite.TC14To17</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDBLinks">
+                  </a> <!-- verifyDBLinks -->
+                  <span class="method-name">verifyDBLinks</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60 milliseconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;H5&apos;, ip: &apos;192.168.100.19&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15068_29142}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: da2a195094fa3c409355d02b44265370
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at RegressionSuite.TC14To17.verifyDBLinks(TC14To17.java:165)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC15: Verify DB link on Slideout panel.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilters">
+                  </a> <!-- verifyFilters -->
+                  <span class="method-name">verifyFilters</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61 milliseconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;H5&apos;, ip: &apos;192.168.100.19&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15068_29142}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: da2a195094fa3c409355d02b44265370
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at RegressionSuite.TC14To17.verifyFilters(TC14To17.java:277)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC 16: Verify DIST/DIR Link on Slideout panel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPopoutLink">
+                  </a> <!-- verifyPopoutLink -->
+                  <span class="method-name">verifyPopoutLink</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 64 milliseconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;H5&apos;, ip: &apos;192.168.100.19&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15068_29142}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: da2a195094fa3c409355d02b44265370
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at RegressionSuite.TC14To17.verifyPopoutLink(TC14To17.java:336)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC 17: Verify Popout page for Map Findings)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySlideOut">
+                  </a> <!-- verifySlideOut -->
+                  <span class="method-name">verifySlideOut</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 66 milliseconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
+System info: host: &apos;H5&apos;, ip: &apos;192.168.100.19&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15068_29142}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: da2a195094fa3c409355d02b44265370
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at RegressionSuite.TC14To17.verifySlideOut(TC14To17.java:68)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC 14: Verify Slideout Panel for MAP FINDINGS)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC41ToTC44</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC: Load lightbox URL )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySlideout">
+                  </a> <!-- verifySlideout -->
+                  <span class="method-name">verifySlideout</span>
+                  <em>
+(TC 45: Verify Slideout panel for AQUIFLOW )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                  <em>
+(TC 41: Verify AQUIFLOW Tab )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC37ToTC40</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC : Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC: Load lightbox URL )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDistDirLink">
+                  </a> <!-- verifyDistDirLink -->
+                  <span class="method-name">verifyDistDirLink</span>
+                  <em>
+(TC 40: Verify DIST/DIR link on Slideout )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHighLightFlagFilter">
+                  </a> <!-- verifyHighLightFlagFilter -->
+                  <span class="method-name">verifyHighLightFlagFilter</span>
+                  <em>
+(TC 38: Verify Hightlight Filter on OTHER )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOTHERDataTab">
+                  </a> <!-- verifyOTHERDataTab -->
+                  <span class="method-name">verifyOTHERDataTab</span>
+                  <em>
+(TC 37: Verify OTHER Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySlideOut">
+                  </a> <!-- verifySlideOut -->
+                  <span class="method-name">verifySlideOut</span>
+                  <em>
+(TC 39: Verify Slideout panel for OTHER )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC47</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC : Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC: Load lightbox URL)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMapMarkerAQUIFLOWMarker">
+                  </a> <!-- verifyMapMarkerAQUIFLOWMarker -->
+                  <span class="method-name">verifyMapMarkerAQUIFLOWMarker</span>
+                  <em>
+(TC 47: Verify AQUIFLOW Map Marker)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMapMarkerBULDPERMITMarker">
+                  </a> <!-- verifyMapMarkerBULDPERMITMarker -->
+                  <span class="method-name">verifyMapMarkerBULDPERMITMarker</span>
+                  <em>
+(TC 47: Verify BUILDING PERMITS Map Marker)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMapMarkerMAPFINDINGSMarker">
+                  </a> <!-- verifyMapMarkerMAPFINDINGSMarker -->
+                  <span class="method-name">verifyMapMarkerMAPFINDINGSMarker</span>
+                  <em>
+(TC 47: Verify MAP FINDINGS Map Marker)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMapMarkerOILGASMarker">
+                  </a> <!-- verifyMapMarkerOILGASMarker -->
+                  <span class="method-name">verifyMapMarkerOILGASMarker</span>
+                  <em>
+(TC 47: Verify OIL AND GAS WELLS Map Marker)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMapMarkerPOIMarker">
+                  </a> <!-- verifyMapMarkerPOIMarker -->
+                  <span class="method-name">verifyMapMarkerPOIMarker</span>
+                  <em>
+(TC 47: Verify POI Map Marker)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMapMarkerSOILMarker">
+                  </a> <!-- verifyMapMarkerSOILMarker -->
+                  <span class="method-name">verifyMapMarkerSOILMarker</span>
+                  <em>
+(TC 47: Verify SOIL DATA Map Marker)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMapMarkerTPMarker">
+                  </a> <!-- verifyMapMarkerTPMarker -->
+                  <span class="method-name">verifyMapMarkerTPMarker</span>
+                  <em>
+(TC 47: Verify TP Map Marker)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMapMarkerWATERWELLSMarker">
+                  </a> <!-- verifyMapMarkerWATERWELLSMarker -->
+                  <span class="method-name">verifyMapMarkerWATERWELLSMarker</span>
+                  <em>
+(TC 47: Verify WATER WELLS Map Marker)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMapMarkers">
+                  </a> <!-- verifyMapMarkers -->
+                  <span class="method-name">verifyMapMarkers</span>
+                  <em>
+(TC 47: Verify LAYERS dropdown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMapMarkersList">
+                  </a> <!-- verifyMapMarkersList -->
+                  <span class="method-name">verifyMapMarkersList</span>
+                  <em>
+(TC 47: Verify LAYERS dropdown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC05</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="listViewExpandCollapse">
+                  </a> <!-- listViewExpandCollapse -->
+                  <span class="method-name">listViewExpandCollapse</span>
+                  <em>
+(TC 05: Verify HIDE/SHOW list view functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC27ToTC31</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC :Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC: Load lightbox URL )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHighLightFlagFilter">
+                  </a> <!-- verifyHighLightFlagFilter -->
+                  <span class="method-name">verifyHighLightFlagFilter</span>
+                  <em>
+(TC 28: Verify Highlight filter on OIL & GAS WELLS)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                  <em>
+(TC 27: Verify OIL & GAS WELLS Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC11</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC: Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC: Load lightbox URL )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHighLightFlagFilter">
+                  </a> <!-- verifyHighLightFlagFilter -->
+                  <span class="method-name">verifyHighLightFlagFilter</span>
+                  <em>
+(TC 11: Verify Highlight flag filter for MAP  FINDINGS)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC23ToTC26</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC :Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC: Load lightbox URL )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHighLightFlagFilter">
+                  </a> <!-- verifyHighLightFlagFilter -->
+                  <span class="method-name">verifyHighLightFlagFilter</span>
+                  <em>
+(TC 24: Verify Highlight Filter on WATER WELLS)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPopoutLink">
+                  </a> <!-- verifyPopoutLink -->
+                  <span class="method-name">verifyPopoutLink</span>
+                  <em>
+(TC 26: Verify POPOUT link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySlideOut">
+                  </a> <!-- verifySlideOut -->
+                  <span class="method-name">verifySlideOut</span>
+                  <em>
+(TC 25: Verify Slideout Panel for WATER WELLS)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                  <em>
+(TC 23: Verify WATER WELLS Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC45</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC: Close lbx url )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC: Load lightbox URL )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddRemoveColumnFilter">
+                  </a> <!-- verifyAddRemoveColumnFilter -->
+                  <span class="method-name">verifyAddRemoveColumnFilter</span>
+                  <em>
+(TC 45: Verify Filter Dependency between SUMMARY and MAP FINDINGS DB filter )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC10</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC: Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyListWidthFeature">
+                  </a> <!-- verifyListWidthFeature -->
+                  <span class="method-name">verifyListWidthFeature</span>
+                  <em>
+(TC 10: Verify LIST WIDTH feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC18ToTC22</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC :Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC: Load lightbox URL )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyColumnAdjustmentFeature">
+                  </a> <!-- verifyColumnAdjustmentFeature -->
+                  <span class="method-name">verifyColumnAdjustmentFeature</span>
+                  <em>
+(TC 20: Verify Add/Remove Column Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHighlightFilter">
+                  </a> <!-- verifyHighlightFilter -->
+                  <span class="method-name">verifyHighlightFilter</span>
+                  <em>
+(TC 21: Verify Slideout Panel for ORPHANS)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyORPHANRecordCount">
+                  </a> <!-- verifyORPHANRecordCount -->
+                  <span class="method-name">verifyORPHANRecordCount</span>
+                  <em>
+(TC 19: Verify Record count for ORPHANS)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySlideout">
+                  </a> <!-- verifySlideout -->
+                  <span class="method-name">verifySlideout</span>
+                  <em>
+(TC 22: Verify Slideout panel for ORPHANS)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                  <em>
+(TC 18: Verify ORPHAN Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC46</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC : Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC: Load lightbox URL)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddRemoveColumnFilter">
+                  </a> <!-- verifyAddRemoveColumnFilter -->
+                  <span class="method-name">verifyAddRemoveColumnFilter</span>
+                  <em>
+(TC 46: Verify Drawing Tool)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC12</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC: Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC: Load lightbox URL )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddRemoveColumnFilter">
+                  </a> <!-- verifyAddRemoveColumnFilter -->
+                  <span class="method-name">verifyAddRemoveColumnFilter</span>
+                  <em>
+(TC 12: Verify Add/Remove List Columns)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC13</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC :Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilters">
+                  </a> <!-- verifyFilters -->
+                  <span class="method-name">verifyFilters</span>
+                  <em>
+(TC 13: Verify Filter on Dist Column)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC48</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC : Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC : Loading lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMapMarkers">
+                  </a> <!-- verifyMapMarkers -->
+                  <span class="method-name">verifyMapMarkers</span>
+                  <em>
+(TC 48: Verify About Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC32ToTC36</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC : Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC: Load lightbox URL )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilters">
+                  </a> <!-- verifyFilters -->
+                  <span class="method-name">verifyFilters</span>
+                  <em>
+(TC 32: Verify SOIL DATA Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPopoutLink">
+                  </a> <!-- verifyPopoutLink -->
+                  <span class="method-name">verifyPopoutLink</span>
+                  <em>
+(TC 35: Verify Popout link for SOIL DATA)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySlideOut">
+                  </a> <!-- verifySlideOut -->
+                  <span class="method-name">verifySlideOut</span>
+                  <em>
+(TC 34: Verify Slideout Panel for SOIL DATA)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySoilInformation">
+                  </a> <!-- verifySoilInformation -->
+                  <span class="method-name">verifySoilInformation</span>
+                  <em>
+(TC 36: Verify Soil Information link on Slideout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC01ToTC04</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC: Load lightbox URL )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBASEMAP">
+                  </a> <!-- verifyBASEMAP -->
+                  <span class="method-name">verifyBASEMAP</span>
+                  <em>
+(TC 04: Verify BASE MAP Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHISTORICALTab">
+                  </a> <!-- verifyHISTORICALTab -->
+                  <span class="method-name">verifyHISTORICALTab</span>
+                  <em>
+(TC 01: Verify Historical Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTOPOTab">
+                  </a> <!-- verifyTOPOTab -->
+                  <span class="method-name">verifyTOPOTab</span>
+                  <em>
+(TC 03: Verify TOPO Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTaxmapTab">
+                  </a> <!-- verifyTaxmapTab -->
+                  <span class="method-name">verifyTaxmapTab</span>
+                  <em>
+(TC 02: Verify TAX MAP Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC49ToTC56</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC : Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC : Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyImagery1">
+                  </a> <!-- verifyImagery1 -->
+                  <span class="method-name">verifyImagery1</span>
+                  <em>
+(TC 49: Verify BASEMAP Tab Function)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyImagery2">
+                  </a> <!-- verifyImagery2 -->
+                  <span class="method-name">verifyImagery2</span>
+                  <em>
+(TC 50: Verify TOPO Tab Function)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyImagery3">
+                  </a> <!-- verifyImagery3 -->
+                  <span class="method-name">verifyImagery3</span>
+                  <em>
+(TC 51: Verify TAX MAP Tab Function)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyImagery4">
+                  </a> <!-- verifyImagery4 -->
+                  <span class="method-name">verifyImagery4</span>
+                  <em>
+(TC 52: Verify HISTORICAL Tab Function)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC06ToTC09</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFINDINGSTab">
+                  </a> <!-- verifyFINDINGSTab -->
+                  <span class="method-name">verifyFINDINGSTab</span>
+                  <em>
+(TC 07: Verify FINDINGS Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOTHERTab">
+                  </a> <!-- verifyOTHERTab -->
+                  <span class="method-name">verifyOTHERTab</span>
+                  <em>
+(TC 09: Verify OTHER Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPHYSICALSETTINGSTab">
+                  </a> <!-- verifyPHYSICALSETTINGSTab -->
+                  <span class="method-name">verifyPHYSICALSETTINGSTab</span>
+                  <em>
+(TC 08: Verify PHYSICAL SETTINGS Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySummaryTab">
+                  </a> <!-- verifySummaryTab -->
+                  <span class="method-name">verifySummaryTab</span>
+                  <em>
+(TC 06: Verify SUMMARY TAB)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegressionSuite.TC14To17</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWindow">
+                  </a> <!-- CloseWindow -->
+                  <span class="method-name">CloseWindow</span>
+                  <em>
+(TC :Close lbx url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeTest">
+                  </a> <!-- beforeTest -->
+                  <span class="method-name">beforeTest</span>
+                  <em>
+(TC: Load lightbox URL )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\workspace\LightBoxAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;RegressionSuite.TC01ToTC04&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC05&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC06ToTC09&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC10&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC11&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC12&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC13&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC14To17&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC18ToTC22&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC23ToTC26&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC27ToTC31&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC32ToTC36&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC37ToTC40&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC41ToTC44&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC45&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC46&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC47&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC48&quot;/&gt;
+      &lt;class name=&quot;RegressionSuite.TC49ToTC56&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (19 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(93);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'beforeTest')
+data.setCell(0, 2, 'RegressionSuite.TC13')
+data.setCell(0, 3, 304782);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'beforeTest')
+data.setCell(1, 2, 'RegressionSuite.TC11')
+data.setCell(1, 3, 125604);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyMapMarkers')
+data.setCell(2, 2, 'RegressionSuite.TC48')
+data.setCell(2, 3, 116131);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyFilters')
+data.setCell(3, 2, 'RegressionSuite.TC13')
+data.setCell(3, 3, 115876);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyHighLightFlagFilter')
+data.setCell(4, 2, 'RegressionSuite.TC23ToTC26')
+data.setCell(4, 3, 111881);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyHighlightFilter')
+data.setCell(5, 2, 'RegressionSuite.TC18ToTC22')
+data.setCell(5, 3, 111433);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyHighLightFlagFilter')
+data.setCell(6, 2, 'RegressionSuite.TC32ToTC36')
+data.setCell(6, 3, 109121);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyImagery4')
+data.setCell(7, 2, 'RegressionSuite.TC49ToTC56')
+data.setCell(7, 3, 104312);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyHighLightFlagFilter')
+data.setCell(8, 2, 'RegressionSuite.TC27ToTC31')
+data.setCell(8, 3, 100925);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyHighLightFlagFilter')
+data.setCell(9, 2, 'RegressionSuite.TC11')
+data.setCell(9, 3, 100478);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyImagery1')
+data.setCell(10, 2, 'RegressionSuite.TC49ToTC56')
+data.setCell(10, 3, 99244);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyHighLightFlagFilter')
+data.setCell(11, 2, 'RegressionSuite.TC37ToTC40')
+data.setCell(11, 3, 96910);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyAddRemoveColumnFilter')
+data.setCell(12, 2, 'RegressionSuite.TC12')
+data.setCell(12, 3, 89234);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'beforeTest')
+data.setCell(13, 2, 'RegressionSuite.TC45')
+data.setCell(13, 3, 85045);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'beforeTest')
+data.setCell(14, 2, 'RegressionSuite.TC32ToTC36')
+data.setCell(14, 3, 83963);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'beforeTest')
+data.setCell(15, 2, 'RegressionSuite.TC41ToTC44')
+data.setCell(15, 3, 79528);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyColumnAdjustmentFeature')
+data.setCell(16, 2, 'RegressionSuite.TC18ToTC22')
+data.setCell(16, 3, 77846);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'beforeTest')
+data.setCell(17, 2, 'RegressionSuite.TC27ToTC31')
+data.setCell(17, 3, 77254);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyMapMarkersList')
+data.setCell(18, 2, 'RegressionSuite.TC47')
+data.setCell(18, 3, 71251);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'beforeTest')
+data.setCell(19, 2, 'RegressionSuite.TC46')
+data.setCell(19, 3, 71249);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'beforeTest')
+data.setCell(20, 2, 'RegressionSuite.TC23ToTC26')
+data.setCell(20, 3, 70215);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'beforeTest')
+data.setCell(21, 2, 'RegressionSuite.TC47')
+data.setCell(21, 3, 61074);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifySlideOut')
+data.setCell(22, 2, 'RegressionSuite.TC14To17')
+data.setCell(22, 3, 60896);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyListWidthFeature')
+data.setCell(23, 2, 'RegressionSuite.TC10')
+data.setCell(23, 3, 60792);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyAddRemoveColumnFilter')
+data.setCell(24, 2, 'RegressionSuite.TC45')
+data.setCell(24, 3, 60074);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'beforeTest')
+data.setCell(25, 2, 'RegressionSuite.TC18ToTC22')
+data.setCell(25, 3, 57128);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifySlideOut')
+data.setCell(26, 2, 'RegressionSuite.TC37ToTC40')
+data.setCell(26, 3, 56373);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'beforeTest')
+data.setCell(27, 2, 'RegressionSuite.TC14To17')
+data.setCell(27, 3, 51218);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'beforeTest')
+data.setCell(28, 2, 'RegressionSuite.TC48')
+data.setCell(28, 3, 50932);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'beforeTest')
+data.setCell(29, 2, 'RegressionSuite.TC37ToTC40')
+data.setCell(29, 3, 50540);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'beforeTest')
+data.setCell(30, 2, 'RegressionSuite.TC49ToTC56')
+data.setCell(30, 3, 49117);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'listViewExpandCollapse')
+data.setCell(31, 2, 'RegressionSuite.TC05')
+data.setCell(31, 3, 48289);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'beforeTest')
+data.setCell(32, 2, 'RegressionSuite.TC01ToTC04')
+data.setCell(32, 3, 47930);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'beforeTest')
+data.setCell(33, 2, 'RegressionSuite.TC12')
+data.setCell(33, 3, 45797);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyImagery2')
+data.setCell(34, 2, 'RegressionSuite.TC49ToTC56')
+data.setCell(34, 3, 44845);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verifySlideOut')
+data.setCell(35, 2, 'RegressionSuite.TC23ToTC26')
+data.setCell(35, 3, 44826);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyTitle')
+data.setCell(36, 2, 'RegressionSuite.TC41ToTC44')
+data.setCell(36, 3, 38081);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifyTitle')
+data.setCell(37, 2, 'RegressionSuite.TC18ToTC22')
+data.setCell(37, 3, 37078);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifyPHYSICALSETTINGSTab')
+data.setCell(38, 2, 'RegressionSuite.TC06ToTC09')
+data.setCell(38, 3, 35413);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verifyBASEMAP')
+data.setCell(39, 2, 'RegressionSuite.TC01ToTC04')
+data.setCell(39, 3, 35077);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'verifyTitle')
+data.setCell(40, 2, 'RegressionSuite.TC27ToTC31')
+data.setCell(40, 3, 34331);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'verifyFilters')
+data.setCell(41, 2, 'RegressionSuite.TC32ToTC36')
+data.setCell(41, 3, 34119);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'verifyTitle')
+data.setCell(42, 2, 'RegressionSuite.TC23ToTC26')
+data.setCell(42, 3, 33965);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'verifyMapMarkerMAPFINDINGSMarker')
+data.setCell(43, 2, 'RegressionSuite.TC47')
+data.setCell(43, 3, 31869);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'verifySlideOut')
+data.setCell(44, 2, 'RegressionSuite.TC32ToTC36')
+data.setCell(44, 3, 30875);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'verifyMapMarkerTPMarker')
+data.setCell(45, 2, 'RegressionSuite.TC47')
+data.setCell(45, 3, 29303);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'verifyOTHERDataTab')
+data.setCell(46, 2, 'RegressionSuite.TC37ToTC40')
+data.setCell(46, 3, 29151);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'verifyPopoutLink')
+data.setCell(47, 2, 'RegressionSuite.TC23ToTC26')
+data.setCell(47, 3, 28064);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'verifyAddRemoveColumnFilter')
+data.setCell(48, 2, 'RegressionSuite.TC46')
+data.setCell(48, 3, 27995);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'verifyPopoutLink')
+data.setCell(49, 2, 'RegressionSuite.TC32ToTC36')
+data.setCell(49, 3, 27949);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'verifyHISTORICALTab')
+data.setCell(50, 2, 'RegressionSuite.TC01ToTC04')
+data.setCell(50, 3, 27493);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'verifyTOPOTab')
+data.setCell(51, 2, 'RegressionSuite.TC01ToTC04')
+data.setCell(51, 3, 25853);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'verifySlideOut')
+data.setCell(52, 2, 'RegressionSuite.TC27ToTC31')
+data.setCell(52, 3, 25403);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'verifyImagery3')
+data.setCell(53, 2, 'RegressionSuite.TC49ToTC56')
+data.setCell(53, 3, 24590);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'verifyDistDirLink')
+data.setCell(54, 2, 'RegressionSuite.TC37ToTC40')
+data.setCell(54, 3, 23843);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'verifyMapMarkerPOIMarker')
+data.setCell(55, 2, 'RegressionSuite.TC47')
+data.setCell(55, 3, 23618);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'verifyFINDINGSTab')
+data.setCell(56, 2, 'RegressionSuite.TC06ToTC09')
+data.setCell(56, 3, 21098);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'verifyORPHANRecordCount')
+data.setCell(57, 2, 'RegressionSuite.TC18ToTC22')
+data.setCell(57, 3, 20472);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'verifyMapMarkerBULDPERMITMarker')
+data.setCell(58, 2, 'RegressionSuite.TC47')
+data.setCell(58, 3, 16004);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'verifySoilInformation')
+data.setCell(59, 2, 'RegressionSuite.TC32ToTC36')
+data.setCell(59, 3, 14725);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'verifyOTHERTab')
+data.setCell(60, 2, 'RegressionSuite.TC06ToTC09')
+data.setCell(60, 3, 14039);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'verifyMapMarkers')
+data.setCell(61, 2, 'RegressionSuite.TC47')
+data.setCell(61, 3, 9476);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'verifyPopoutLink')
+data.setCell(62, 2, 'RegressionSuite.TC14To17')
+data.setCell(62, 3, 7300);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'verifyFilters')
+data.setCell(63, 2, 'RegressionSuite.TC14To17')
+data.setCell(63, 3, 7290);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'verifyPopoutLink')
+data.setCell(64, 2, 'RegressionSuite.TC27ToTC31')
+data.setCell(64, 3, 7260);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'verifyDBLinks')
+data.setCell(65, 2, 'RegressionSuite.TC14To17')
+data.setCell(65, 3, 7188);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'verifySummaryTab')
+data.setCell(66, 2, 'RegressionSuite.TC06ToTC09')
+data.setCell(66, 3, 6264);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'verifyMapMarkerWATERWELLSMarker')
+data.setCell(67, 2, 'RegressionSuite.TC47')
+data.setCell(67, 3, 5852);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'verifyMapMarkerOILGASMarker')
+data.setCell(68, 2, 'RegressionSuite.TC47')
+data.setCell(68, 3, 5814);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'verifyMapMarkerSOILMarker')
+data.setCell(69, 2, 'RegressionSuite.TC47')
+data.setCell(69, 3, 5553);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'verifyMapMarkerAQUIFLOWMarker')
+data.setCell(70, 2, 'RegressionSuite.TC47')
+data.setCell(70, 3, 5500);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'verifyTaxmapTab')
+data.setCell(71, 2, 'RegressionSuite.TC01ToTC04')
+data.setCell(71, 3, 5494);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'CloseWindow')
+data.setCell(72, 2, 'RegressionSuite.TC12')
+data.setCell(72, 3, 1211);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'CloseWindow')
+data.setCell(73, 2, 'RegressionSuite.TC14To17')
+data.setCell(73, 3, 1172);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'CloseWindow')
+data.setCell(74, 2, 'RegressionSuite.TC13')
+data.setCell(74, 3, 1135);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'CloseWindow')
+data.setCell(75, 2, 'RegressionSuite.TC37ToTC40')
+data.setCell(75, 3, 1132);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'CloseWindow')
+data.setCell(76, 2, 'RegressionSuite.TC49ToTC56')
+data.setCell(76, 3, 1125);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'CloseWindow')
+data.setCell(77, 2, 'RegressionSuite.TC32ToTC36')
+data.setCell(77, 3, 1122);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'CloseWindow')
+data.setCell(78, 2, 'RegressionSuite.TC23ToTC26')
+data.setCell(78, 3, 426);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'CloseWindow')
+data.setCell(79, 2, 'RegressionSuite.TC48')
+data.setCell(79, 3, 324);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'CloseWindow')
+data.setCell(80, 2, 'RegressionSuite.TC18ToTC22')
+data.setCell(80, 3, 320);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'CloseWindow')
+data.setCell(81, 2, 'RegressionSuite.TC45')
+data.setCell(81, 3, 317);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'CloseWindow')
+data.setCell(82, 2, 'RegressionSuite.TC10')
+data.setCell(82, 3, 241);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'CloseWindow')
+data.setCell(83, 2, 'RegressionSuite.TC47')
+data.setCell(83, 3, 227);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'CloseWindow')
+data.setCell(84, 2, 'RegressionSuite.TC27ToTC31')
+data.setCell(84, 3, 225);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'CloseWindow')
+data.setCell(85, 2, 'RegressionSuite.TC46')
+data.setCell(85, 3, 210);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'CloseWindow')
+data.setCell(86, 2, 'RegressionSuite.TC11')
+data.setCell(86, 3, 195);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'verifyColumnAdjustmentFeature')
+data.setCell(87, 2, 'RegressionSuite.TC41ToTC44')
+data.setCell(87, 3, 6);
+data.setCell(88, 0, 88)
+data.setCell(88, 1, 'verifyAQUIFLOWRecordCount')
+data.setCell(88, 2, 'RegressionSuite.TC41ToTC44')
+data.setCell(88, 3, 4);
+data.setCell(89, 0, 89)
+data.setCell(89, 1, 'verifyHighLightFlagFilter')
+data.setCell(89, 2, 'RegressionSuite.TC41ToTC44')
+data.setCell(89, 3, 3);
+data.setCell(90, 0, 90)
+data.setCell(90, 1, 'verifySlideout')
+data.setCell(90, 2, 'RegressionSuite.TC18ToTC22')
+data.setCell(90, 3, 2);
+data.setCell(91, 0, 91)
+data.setCell(91, 1, 'verifySlideout')
+data.setCell(91, 2, 'RegressionSuite.TC41ToTC44')
+data.setCell(91, 3, 2);
+data.setCell(92, 0, 92)
+data.setCell(92, 1, 'CloseWindow')
+data.setCell(92, 2, 'RegressionSuite.TC41ToTC44')
+data.setCell(92, 3, 2);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 hours</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC01ToTC04</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHISTORICALTab</span>
+                <span class="method-start">47934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTaxmapTab</span>
+                <span class="method-start">75430 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTOPOTab</span>
+                <span class="method-start">80926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBASEMAP</span>
+                <span class="method-start">106781 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC05</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">listViewExpandCollapse</span>
+                <span class="method-start">141869 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC06ToTC09</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySummaryTab</span>
+                <span class="method-start">190164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFINDINGSTab</span>
+                <span class="method-start">196430 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPHYSICALSETTINGSTab</span>
+                <span class="method-start">217531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyOTHERTab</span>
+                <span class="method-start">252947 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC10</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyListWidthFeature</span>
+                <span class="method-start">266991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">327791 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC11</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">328036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHighLightFlagFilter</span>
+                <span class="method-start">453644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">554123 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC12</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">554329 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAddRemoveColumnFilter</span>
+                <span class="method-start">600129 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">689367 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC13</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">690581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFilters</span>
+                <span class="method-start">995447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">1111328 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC14To17</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1112466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySlideOut</span>
+                <span class="method-start">1163689 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyDBLinks</span>
+                <span class="method-start">1224592 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyFilters</span>
+                <span class="method-start">1231788 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPopoutLink</span>
+                <span class="method-start">1239082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">1246389 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC18ToTC22</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1247564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">1304694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyORPHANRecordCount</span>
+                <span class="method-start">1341775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyColumnAdjustmentFeature</span>
+                <span class="method-start">1362250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHighlightFilter</span>
+                <span class="method-start">1440099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySlideout</span>
+                <span class="method-start">1551534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">1551538 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC23ToTC26</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1551862 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">1622078 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHighLightFlagFilter</span>
+                <span class="method-start">1656045 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySlideOut</span>
+                <span class="method-start">1767929 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPopoutLink</span>
+                <span class="method-start">1812757 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">1840824 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC27ToTC31</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1841253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">1918513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHighLightFlagFilter</span>
+                <span class="method-start">1952847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySlideOut</span>
+                <span class="method-start">2053774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPopoutLink</span>
+                <span class="method-start">2079181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">2086445 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC32ToTC36</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">2086673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFilters</span>
+                <span class="method-start">2170640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyHighLightFlagFilter</span>
+                <span class="method-start">2204761 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySlideOut</span>
+                <span class="method-start">2313888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPopoutLink</span>
+                <span class="method-start">2344766 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySoilInformation</span>
+                <span class="method-start">2372718 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">2387446 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC37ToTC40</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">2388572 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyOTHERDataTab</span>
+                <span class="method-start">2439114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHighLightFlagFilter</span>
+                <span class="method-start">2468268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySlideOut</span>
+                <span class="method-start">2565179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDistDirLink</span>
+                <span class="method-start">2621553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">2645398 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC41ToTC44</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">2646533 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">2726064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyAQUIFLOWRecordCount</span>
+                <span class="method-start">2764148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyColumnAdjustmentFeature</span>
+                <span class="method-start">2764157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyHighLightFlagFilter</span>
+                <span class="method-start">2764167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySlideout</span>
+                <span class="method-start">2764174 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">2764178 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC45</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">2764184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAddRemoveColumnFilter</span>
+                <span class="method-start">2849232 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">2909307 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC46</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">2909627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAddRemoveColumnFilter</span>
+                <span class="method-start">2980878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">3008875 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC47</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">3009088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMapMarkers</span>
+                <span class="method-start">3070164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMapMarkersList</span>
+                <span class="method-start">3079642 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMapMarkerTPMarker</span>
+                <span class="method-start">3150895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMapMarkerMAPFINDINGSMarker</span>
+                <span class="method-start">3180200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMapMarkerWATERWELLSMarker</span>
+                <span class="method-start">3212072 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMapMarkerOILGASMarker</span>
+                <span class="method-start">3217926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMapMarkerSOILMarker</span>
+                <span class="method-start">3223742 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMapMarkerAQUIFLOWMarker</span>
+                <span class="method-start">3229297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMapMarkerBULDPERMITMarker</span>
+                <span class="method-start">3234798 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMapMarkerPOIMarker</span>
+                <span class="method-start">3250804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">3274424 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC48</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">3274653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMapMarkers</span>
+                <span class="method-start">3325587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">3441721 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegressionSuite.TC49ToTC56</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">3442048 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyImagery1</span>
+                <span class="method-start">3491171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyImagery2</span>
+                <span class="method-start">3590418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyImagery3</span>
+                <span class="method-start">3635266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyImagery4</span>
+                <span class="method-start">3659863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseWindow</span>
+                <span class="method-start">3764177 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

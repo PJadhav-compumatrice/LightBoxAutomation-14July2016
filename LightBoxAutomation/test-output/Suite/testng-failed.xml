@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="RegressionSuite.TC01ToTC04"/>
+      <class name="RegressionSuite.TC05"/>
+      <class name="RegressionSuite.TC06ToTC09"/>
+      <class name="RegressionSuite.TC10"/>
+      <class name="RegressionSuite.TC11"/>
+      <class name="RegressionSuite.TC12"/>
+      <class name="RegressionSuite.TC13"/>
+      <class name="RegressionSuite.TC14To17"/>
+      <class name="RegressionSuite.TC18ToTC22"/>
+      <class name="RegressionSuite.TC23ToTC26"/>
+      <class name="RegressionSuite.TC27ToTC31"/>
+      <class name="RegressionSuite.TC32ToTC36"/>
+      <class name="RegressionSuite.TC37ToTC40"/>
+      <class name="RegressionSuite.TC41ToTC44"/>
+      <class name="RegressionSuite.TC45"/>
+      <class name="RegressionSuite.TC46"/>
+      <class name="RegressionSuite.TC47"/>
+      <class name="RegressionSuite.TC48"/>
+      <class name="RegressionSuite.TC49ToTC56"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="RegressionSuite.TC41ToTC44">
+        <methods>
+          <include name="verifyHighLightFlagFilter"/>
+          <include name="CloseWindow"/>
+          <include name="verifyAQUIFLOWRecordCount"/>
+          <include name="verifyColumnAdjustmentFeature"/>
+        </methods>
+      </class> <!-- RegressionSuite.TC41ToTC44 -->
+      <class name="RegressionSuite.TC13">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- RegressionSuite.TC13 -->
+      <class name="RegressionSuite.TC27ToTC31">
+        <methods>
+          <include name="verifySlideOut"/>
+          <include name="verifyPopoutLink"/>
+        </methods>
+      </class> <!-- RegressionSuite.TC27ToTC31 -->
+      <class name="RegressionSuite.TC32ToTC36">
+        <methods>
+          <include name="verifyHighLightFlagFilter"/>
+        </methods>
+      </class> <!-- RegressionSuite.TC32ToTC36 -->
+      <class name="RegressionSuite.TC14To17">
+        <methods>
+          <include name="verifySlideOut"/>
+          <include name="verifyPopoutLink"/>
+          <include name="verifyDBLinks"/>
+          <include name="verifyFilters"/>
+        </methods>
+      </class> <!-- RegressionSuite.TC14To17 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
